@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="hello" class="cn.zhaoyuening.web.action.HelloAction">
+            <result name="success">/hello.jsp</result>
+        </action>
+    </package>
+
+</struts>
